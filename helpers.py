@@ -1,1 +1,1 @@
-CHROME_DRIVER_PATH = '/Users/mvasilenko/chromedriver'
+CHROME_DRIVER_PATH = '/Users/m.vasilenko/chromedriver'
