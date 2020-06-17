@@ -1,9 +1,6 @@
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.by import By
 from MainPage import SearchHelper
 
-def test_open_serp_new(driver):
+def test_open_serp(driver):
     cian_main_page = SearchHelper(driver)
     cian_main_page.go_to_site()
     assert "ЦИАН" in driver.title
