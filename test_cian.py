@@ -12,3 +12,4 @@ def test_open_serp_new(driver):
     cian_main_page.click_on_the_search_button()
     cian_main_page.wait_title("Санкт-Петербург")
     assert "Санкт-Петербург" in driver.title
+    assert "Продажа 1-комн и 2-комн квартир в Санкт-Петербурге" in driver.page_source
